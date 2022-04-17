@@ -4,6 +4,7 @@
   "description": "",
   "main": "transform.ts",
   "scripts": {
+    "start": "jscodeshift -t transform.ts --parser tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
