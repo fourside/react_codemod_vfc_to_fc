@@ -11,3 +11,11 @@ export const A: FC = (props) => {
 export const B: React.FC = (props) => {
   return null;
 };
+
+export const C: FC<Props> = (props) => {
+  return null;
+};
+
+export const D: React.FC<Props> = (props) => {
+  return null;
+};

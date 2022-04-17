@@ -11,3 +11,11 @@ export const A: VFC = (props) => {
 export const B: React.VFC = (props) => {
   return null;
 };
+
+export const C: VFC<Props> = (props) => {
+  return null;
+};
+
+export const D: React.VFC<Props> = (props) => {
+  return null;
+};
