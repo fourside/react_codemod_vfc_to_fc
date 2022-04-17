@@ -1,0 +1,25 @@
+{
+  "name": "react_codemod_vfc_to_fc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transform.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fourside@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^0.13.1",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/jscodeshift": "^0.11.4",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  }
+}
